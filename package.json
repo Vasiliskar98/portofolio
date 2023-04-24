@@ -1,0 +1,17 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "my portofolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "vasilis karaoulanis",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
